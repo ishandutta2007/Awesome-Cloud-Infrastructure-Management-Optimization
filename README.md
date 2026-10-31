@@ -1,48 +1,50 @@
-# Awesome-Cloud-Infrastructure-Management-Optimization
+# Awesome Cloud Infrastructure Management & Optimization ☁️⚡
 
-# Awesome-Cloud-Infrastructure-Management-Optimization
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Cloud Infrastructure Management &amp; Optimization" width="100%">
+</p>
 
-**Top Cloud Infrastructure Management Optimization (Opensource) 🌟 Star if you like it! 🌟**
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cloud-Infrastructure-Management-Optimization/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Cloud-Infrastructure-Management-Optimization?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cloud-Infrastructure-Management-Optimization/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Cloud-Infrastructure-Management-Optimization?style=social" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cloud-Infrastructure-Management-Optimization/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+---
 
+## 🌟 Overview & Highlights
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
+A curated directory of leading **SaaS platforms**, **autonomous rightsizers**, and **open-source FinOps tools** focused on Kubernetes cost visibility, workload optimization, multi-cloud financial operations, and infrastructure rightsizing.
 
-*Focused on Kubernetes Cost Visibility, Automated Rightsizing, Multi-Cloud FinOps & Workload Optimization*
+Whether managing multi-cloud enterprise budgets across AWS, Azure, and GCP, configuring autonomous container bin-packing and Spot instances, or establishing open showback/chargeback with FOCUS standards, this guide catalogs vetted commercial platforms and active open-source projects.
 
-**Last updated: October 2026**
+---
 
+## 📑 Table of Contents
 
+- [📈 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS & Hosted Platforms](#-saas--hosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🛠️ FinOps Architecture & Stacks](#-finops-architecture--stacks)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
+- [⚠️ Disclaimer](#️-disclaimer)
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Cloud Infrastructure Management & Optimization**. These tools enable organizations to gain visibility into cloud spend, automate resource rightsizing, optimize Kubernetes workloads, and enforce FinOps practices—from fully managed platforms with AI-driven anomaly detection and autonomous optimization to open-source engines that provide cost allocation and chargeback visibility without vendor lock-in.
+---
 
+## 📈 Sector Overview & Market Dynamics
 
+The global Cloud Cost Management and FinOps market is estimated between **$13 billion and $15.2 billion**, compounding at a double-digit CAGR of **11%–14%** fueled by multi-cloud complexity and surging AI/GPU infrastructure expenditures. 
 
-**Examples** include CAST AI, Spot by NetApp, Kubecost, CloudZero, Vantage, Apptio Cloudability, Anodot, Zesty, and Snowflake Cloud Services Layer (the category leaders in commercial space).
+The sector is **moderately fragmented**: the top tier is concentrated among hyperscalers (AWS Cost Explorer, Azure Cost Management, GCP Billing) and legacy enterprise titans (IBM/Apptio, Flexera) capturing roughly **45%–50%** of total revenue. Meanwhile, the remaining market comprises an innovative and fast-growing long tail of specialized autonomous optimization vendors, Kubernetes-native rightsizers, and FinOps platforms enabled by vendor-neutral standards such as the FinOps Foundation's FOCUS (FinOps Open Cost and Usage Specification).
 
+---
 
-
-**Open-source emphasis**: This section is expanded with every relevant project for self-hosted cost monitoring, Kubernetes optimization, and open FinOps infrastructure. **Critical note**: The open-source FinOps landscape is anchored by **OpenCost** as the vendor-neutral specification and implementation for Kubernetes cost allocation . **Kubecost** (commercial) builds on OpenCost but its free tier has limitations, and **k8s-rightsizer** offers automated rightsizing with safety rollback . No open-source project matches CAST AI's autonomous node provisioning or Zesty's real-time disk scaling, but for cost visibility and basic optimization, the open-source options are production-proven.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## Sector Overview & Market Dynamics
-
-The global Cloud Cost Management and FinOps market is estimated between **$13 billion and $15.2 billion**, compounding at a double-digit CAGR of 11%–14% fueled by multi-cloud complexity and surging AI/GPU infrastructure expenditures. The sector is **moderately fragmented**: the top tier is concentrated among hyperscalers (AWS, Azure, GCP native billing tools) and legacy enterprise titans (IBM/Apptio, Flexera) capturing roughly 45%–50% of revenue, while the remaining market consists of a competitive, fast-growing long tail of specialized autonomous optimization vendors, Kubernetes-native tools, and FinOps platforms enabled by vendor-neutral standards like FOCUS.
-
-## SaaS/Hosted Platforms
+## 🏢 SaaS & Hosted Platforms
 
 | Platform | Company Size (Revenue / Valuation) | Pricing (Starting Tier) | Free Tier Limits / Free Trial | Key Capabilities & Highlights |
 | :--- | :--- | :--- | :--- | :--- |
@@ -56,104 +58,134 @@ The global Cloud Cost Management and FinOps market is estimated between **$13 bi
 | **[Anodot](https://www.anodot.com/)** | **Valuation: ~$60M–$80M** ($65M+ total funding raised; peak ARR ~$10M–$14M) | Mid-market and enterprise packages starting at ~$40,000/year via cloud marketplace contracts | 30 to 60-day scoped Proof-of-Concept (POC) / pilot trial through sales qualification | AI-driven multi-cloud and SaaS cost monitoring, CostGPT assistant, automated anomaly alerting, and forecasting dashboards. |
 | **[Kubecost](https://kubecost.com/)** | **Acquired by IBM/Apptio** ($30.5M venture funding raised prior to acquisition) | **Business Tier**: Starts at $449/month (up to ~200 nodes, 30+ day retention, multi-cluster federation) | **Foundations (Free forever)**: Supports up to 250 CPU cores across unlimited clusters with 15-day data retention | Kubernetes cost allocation built on OpenCost with real-time rightsizing recommendations, health alerts, and cloud billing discount reconciliation. |
 
-## Open-Source GitHub Projects
+---
 
+## 💻 Open-Source GitHub Projects
 
+Sorted in descending order by GitHub Stars ⭐. Each repository includes official links, social star counts, architectural scope, and practical tradeoffs.
 
-- **[OpenCost](https://github.com/opencost/opencost)**
+### 1. **[Infracost](https://github.com/infracost/infracost)** [![GitHub stars](https://img.shields.io/github/stars/infracost/infracost?style=social&color=white)](https://github.com/infracost/infracost/stargazers)
+- **Description**: Cloud cost estimates for Terraform in pull requests and CI/CD pipelines (Apache 2.0). Surfaces cost deltas for AWS, Azure, and Google Cloud infrastructure before code is merged.
+- **Key Features**: Pull request comments showing monthly cost impacts, breakdown per resource, threshold guardrails, and CLI integration.
+- **Trade-off**: Shift-left cost estimation prior to provisioning—does not monitor ongoing cloud waste, rightsizing, or live telemetry post-deployment.
+- **Best For**: Engineering teams wanting shift-left cost governance directly in GitHub/GitLab pull requests.
 
-  **Vendor-neutral Kubernetes cost monitoring** (Apache 2.0) — **the open-source specification and implementation for Kubernetes cost allocation**, originally developed and open-sourced by Kubecost . **Features**: Real-time cost allocation by cluster, node, namespace, controller, service, pod, and **any Kubernetes label or annotation** (e.g., `team=payments` automatically surfaces cost by team) . Tracks CPU, memory, GPU, persistent volume, and network egress costs. Integrates with AWS CUR, Azure Rate Card, and GCP Billing APIs for actual on-demand rates. **MCP server** (opt-in) provides AI agents access to cost allocation and asset data . **Tech stack**: Go, Prometheus. **Deploy**: Helm chart (`helm install opencost opencost/opencost`) . **Trade-off**: **Visibility only—no rightsizing recommendations or automation**. No built-in alerting (requires Prometheus AlertManager). **No discount reconciliation**—cannot account for committed-use discounts, savings plans, or EDP/EDA, creating a **30–50% gap** between reported and actual costs for enterprise accounts . **Best for**: teams wanting vendor-neutral Kubernetes cost visibility as a foundation for chargeback and showback—without commercial lock-in.
+### 2. **[OpenCost](https://github.com/opencost/opencost)** [![GitHub stars](https://img.shields.io/github/stars/opencost/opencost?style=social&color=white)](https://github.com/opencost/opencost/stargazers)
+- **Description**: Vendor-neutral Kubernetes cost monitoring and allocation specification (Apache 2.0), hosted under the Cloud Native Computing Foundation (CNCF).
+- **Key Features**: Real-time cost allocation by cluster, namespace, controller, service, and custom labels (`team=payments`). Integrates with AWS CUR, Azure Rate Card, and GCP Billing APIs. Includes an opt-in MCP server for AI agent workflows.
+- **Trade-off**: Provides visibility only—no native automated rightsizing, active remediation, or discount reconciliation (creating a 30%–50% variance from effective enterprise rates).
+- **Best For**: Platform teams requiring a standardized, vendor-neutral Kubernetes cost visibility engine.
 
+### 3. **[Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian)** [![GitHub stars](https://img.shields.io/github/stars/cloud-custodian/cloud-custodian?style=social&color=white)](https://github.com/cloud-custodian/cloud-custodian/stargazers)
+- **Description**: Lightweight rules engine for multi-cloud management, automated compliance, security, and cost optimization (Apache 2.0).
+- **Key Features**: Declarative YAML policies for tagging enforcement, unattached EBS volume deletion, idle resource stopping/off-hours scheduling, and real-time event-driven remediation via AWS Lambda, Azure Functions, and GCP Cloud Functions.
+- **Trade-off**: Requires writing and maintaining custom YAML policies; rule execution without careful dry-runs can inadvertently terminate in-use development resources.
+- **Best For**: Cloud platform and security engineers automating cloud waste cleanup and governance across AWS, Azure, and GCP.
 
+### 4. **[ec2instances.info (Vantage Instances)](https://github.com/vantage-sh/ec2instances.info)** [![GitHub stars](https://img.shields.io/github/stars/vantage-sh/ec2instances.info?style=social&color=white)](https://github.com/vantage-sh/ec2instances.info/stargazers)
+- **Description**: Open-source scraper and database comparing AWS EC2, RDS, and ElastiCache pricing, memory, compute specs, and GPU configurations (Apache 2.0).
+- **Key Features**: Comprehensive matrix comparing on-demand, spot, and reserved instance pricing, network performance, and architecture per AWS region.
+- **Trade-off**: Static lookup data table without cluster telemetry or infrastructure integration.
+- **Best For**: Architects and developers comparing AWS instance families, pricing tiers, and hardware specs during system design.
 
-- **[k8s-rightsizer](https://github.com/mcpunzo/k8s-rightsizer)**
+### 5. **[KRR (Kubernetes Resource Recommender)](https://github.com/robusta-dev/krr)** [![GitHub stars](https://img.shields.io/github/stars/robusta-dev/krr?style=social&color=white)](https://github.com/robusta-dev/krr/stargazers)
+- **Description**: CLI tool by Robusta for Kubernetes resource rightsizing recommendations based on Prometheus metrics (MIT License).
+- **Key Features**: Analyzes historical CPU and memory usage to calculate recommended CPU/RAM requests and limits. Requires no cluster agent—runs locally via `kubectl` and queries Prometheus directly.
+- **Trade-off**: Recommendation engine only—does not automatically apply YAML mutations to production Deployments or StatefulSets.
+- **Best For**: DevOps engineers who want quick, actionable CLI recommendations for Kubernetes container requests and limits without deploying heavy daemonsets.
 
-  **Automated Kubernetes rightsizing with safety rollback** (license per repo) — **the most focused open-source tool for automated resource optimization**, addressing OpenCost's biggest gap . **Features**: Reads recommendations from **Excel file** and applies them; **automatic rollback** if new resources cause deployment failures (OOMKilled, CrashLoopBackOff, Unschedulable); **real-time monitoring** during rollout; works with Deployments and StatefulSets; Helm-powered distribution. **Production results**: **36% cost reduction** on EKS Cluster A and **23% on Cluster B** over 30 days, with zero downtime . **Tech stack**: Go, Helm. **Deploy**: Helm chart; `DRY_RUN=true` for planning without changes . **Trade-off**: **Requires Excel input**—not integrated with OpenCost/Kubecost recommendations automatically. Newer project with limited community validation compared to OpenCost. **Best for**: teams wanting to safely automate rightsizing based on recommendations from any source—especially those who want rollback protection before trusting automated changes.
+### 6. **[Goldilocks](https://github.com/FairwindsOps/goldilocks)** [![GitHub stars](https://img.shields.io/github/stars/FairwindsOps/goldilocks?style=social&color=white)](https://github.com/FairwindsOps/goldilocks/stargazers)
+- **Description**: Kubernetes utility that identifies starting points for resource requests and limits using the Vertical Pod Autoscaler (VPA) in recommendation mode (Apache 2.0).
+- **Key Features**: Automatically creates VPAs for workloads in labeled namespaces, provides an intuitive web dashboard, and generates benchmark recommendations.
+- **Trade-off**: Relies on the Kubernetes Vertical Pod Autoscaler; lacks built-in financial pricing translation (displays CPU/RAM rather than dollar impacts).
+- **Best For**: Teams calibrating Kubernetes resource requests to eliminate OOM kills and overprovisioning.
 
+### 7. **[Karpenter](https://github.com/kubernetes-sigs/karpenter)** [![GitHub stars](https://img.shields.io/github/stars/kubernetes-sigs/karpenter?style=social&color=white)](https://github.com/kubernetes-sigs/karpenter/stargazers)
+- **Description**: Flexible, high-performance Kubernetes node autoscaler designed to optimize cluster compute capacity and minimize cloud spending (Apache 2.0).
+- **Key Features**: Observes unschedulable pods, bypasses node groups, and launches precisely right-sized compute instances within seconds; automatically consolidates and drains underutilized nodes to save compute costs.
+- **Trade-off**: Dynamic node provisioning requires careful disruption budgeting (PDBs) and spot termination handling to avoid application interruptions.
+- **Best For**: Workloads on EKS and Kubernetes needing dynamic, rapid compute scaling and automated spot/on-demand node consolidation.
 
+### 8. **[Kubecost Helm Chart](https://github.com/kubecost/cost-analyzer-helm-chart)** [![GitHub stars](https://img.shields.io/github/stars/kubecost/cost-analyzer-helm-chart?style=social&color=white)](https://github.com/kubecost/cost-analyzer-helm-chart/stargazers)
+- **Description**: Deployment package and open-source core analyzer for Kubecost, tracking real-time Kubernetes spend (Apache 2.0 core).
+- **Key Features**: Multi-cloud Kubernetes cost tracking, out-of-the-box Grafana dashboards, health checks, and waste recommendations.
+- **Trade-off**: Free tier caps data retention at 15–30 days and enforces spend limits (unless using the AWS EKS customized bundle).
+- **Best For**: Quick deployment of Kubernetes cost monitoring with ready-made dashboards on EKS, GKE, or AKS.
 
-- **[Kubecost (Open Source)](https://github.com/kubecost/cost-analyzer-helm-chart)**
+### 9. **[Koku](https://github.com/project-koku/koku)** [![GitHub stars](https://img.shields.io/github/stars/project-koku/koku?style=social&color=white)](https://github.com/project-koku/koku/stargazers)
+- **Description**: Open-source cost management engine for hybrid cloud environments, OpenShift, and Kubernetes (AGPL-3.0).
+- **Key Features**: Ingests, processes, and normalizes cloud usage data across AWS, Azure, GCP, and Red Hat OpenShift, calculating tag-based chargeback and showback.
+- **Trade-off**: Requires dedicated infrastructure (PostgreSQL, Kafka, Trino) to manage data pipelines; tailored primarily for OpenShift/hybrid enterprise deployments.
+- **Best For**: Hybrid enterprise organizations running Red Hat OpenShift alongside public cloud providers.
 
-  **Kubernetes cost monitoring with commercial features** (Apache 2.0 core) — **the original Kubernetes cost tool**, now built on OpenCost. **Features**: Same allocation engine as OpenCost, plus **savings recommendations**, **health checks**, and **alerts** in the free tier. **The free tier has a $100,000 spend cap and 30-day retention** . **AWS EKS-optimized Kubecost**: Amazon EKS customers get a **custom package with no spend limit**, removing the $100K cap . **Tech stack**: Go, Prometheus, ClickHouse (v3). **Deploy**: Helm chart. **Trade-off**: **Free tier is constrained** for production use—$100K spend cap and 30-day retention. v3 migration requires planning and may affect reporting availability . **Best for**: EKS customers wanting Kubecost's recommendations without the spend cap—or teams evaluating Kubecost before upgrading to commercial.
+### 10. **[FOCUS Converters](https://github.com/finopsfoundation/focus_converters)** [![GitHub stars](https://img.shields.io/github/stars/finopsfoundation/focus_converters?style=social&color=white)](https://github.com/finopsfoundation/focus_converters/stargazers)
+- **Description**: Specification converters and normalization scripts from the FinOps Foundation for the FOCUS open standard (Apache 2.0).
+- **Key Features**: Converts raw AWS CUR, Azure EA/MCA, and GCP BigQuery billing exports into a unified, normalized FOCUS schema.
+- **Trade-off**: Data pipeline utility only—no graphical interface, alerting, or direct rightsizing actions.
+- **Best For**: FinOps data practitioners building unified multi-cloud data warehouses and analytics.
 
+### 11. **[OpenCost UI](https://github.com/opencost/opencost-ui)** [![GitHub stars](https://img.shields.io/github/stars/opencost/opencost-ui?style=social&color=white)](https://github.com/opencost/opencost-ui/stargazers)
+- **Description**: Clean web visualization interface for OpenCost data (Apache 2.0).
+- **Key Features**: Visualizes cost allocation across namespaces, nodes, controllers, and services; displays real-time asset spending breakdowns.
+- **Trade-off**: Visual layer only—requires a running OpenCost core service.
+- **Best For**: Teams needing a standalone, lightweight UI for OpenCost without commercial licenses.
 
-
-- **[opencost/opencost-ui](https://github.com/opencost/opencost-ui)**
-
-  **Web UI for OpenCost** (Apache 2.0) — **the visualization layer** for OpenCost data. **Features**: Cost allocation dashboards; asset inventory; savings opportunities (when connected to Kubecost recommendations). **Tech stack**: TypeScript, React. **Deploy**: Deployed alongside OpenCost. **Trade-off**: **UI only**—requires OpenCost backend. **Best for**: teams wanting a web interface over OpenCost data without Kubecost's commercial constraints.
-
-
-
-- **[FOCUS Converters](https://github.com/finopsfoundation/focus_converters)**
-
-  **FinOps FOCUS specification converters** (Apache 2.0) — **the open standard for normalizing cloud cost data**. **Features**: Converters for AWS, Azure, GCP, and other cost exports to the **FOCUS specification** (FinOps Open Cost and Usage Specification). Enables consistent cost reporting across providers and tools. **Tech stack**: Python. **Deploy**: Self-hosted scripts. **Trade-off**: **Data normalization only**—no visualization, optimization, or automation. **Best for**: FinOps teams wanting to standardize cost data across multiple clouds before feeding into analytics tools.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Infracost** — Cloud cost estimates for Terraform in pull requests (Apache 2.0). Shows cost impact of infrastructure changes before merge. **Note**: Shift-left cost estimation, not ongoing optimization. **Best for**: teams wanting to catch costly infrastructure changes in code review.
-
-- **Terracost** — Cloud cost estimation for Terraform in CLI (Apache 2.0). **Note**: Estimation only; no ongoing monitoring. **Best for**: developers wanting quick cost estimates for Terraform plans.
-
-- **ckia (cloud know it all)** — Open-source AWS Trusted Advisor alternative (license per repo). Makes recommendations for target cloud account. **Note**: Recommendation engine, not continuous optimization. **Best for**: AWS users wanting a free alternative to Trusted Advisor checks.
-
-- **Koku** — Open-source cost management for cloud and hybrid environments (AGPL-3.0). **Note**: Cost management and reporting; less Kubernetes-focused than OpenCost. **Best for**: organizations wanting multi-cloud cost management outside Kubernetes.
-
-
-
-**Frameworks for building custom systems**: Combine **OpenCost** for Kubernetes cost visibility with **k8s-rightsizer** for automated rightsizing with safety rollback, **FOCUS Converters** for normalized multi-cloud cost data, and **Infracost** for shift-left Terraform cost estimation—creating an open-source FinOps stack. **None of these match CAST AI's autonomous node provisioning or Zesty's real-time disk scaling**, but for visibility and basic optimization, the open-source options cover core needs.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, license (for open-source), and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Cloud infrastructure optimization platforms handling billing data and infrastructure credentials must comply with data protection regulations (GDPR, CCPA, etc.) and implement appropriate access controls for cost and usage data.
-
-- **The "visibility" vs. "optimization" vs. "automation" distinction is critical.** **OpenCost and Kubecost** provide **visibility**—they show you what you spend but do not act on it . **CAST AI and Zesty** provide **automation**—they actively change your infrastructure to reduce spend . **k8s-rightsizer** provides **safe automation**—it applies rightsizing recommendations with rollback protection . **OpenCost explicitly does not provide rightsizing recommendations, automation, alerting, governance, or discount reconciliation**—it is a visibility foundation . **Choose based on whether you need to see, decide, or automate.**
-
-- **OpenCost's discount reconciliation gap is a real limitation for enterprise chargeback.** It cannot account for committed-use discounts, savings plans, or negotiated enterprise rates—the gap between on-demand and effective rates can reach **30–50%** . **If your chargeback model depends on accurate effective rates, you need Kubecost commercial or a platform that reconciles discounts.**
-
-- **Kubecost's free tier is not production-ready at scale.** The **$100,000 spend cap and 30-day retention** make it unsuitable for most production environments . **AWS EKS customers get an exception**—the EKS-optimized package has no spend limit . **Evaluate whether your provider offers a similar exemption before committing to the free tier.**
-
-- **k8s-rightsizer is the most promising open-source automation tool** with real production results (36% and 23% cost reduction with zero downtime) and safety rollback . **The trade-off**: it requires Excel input—it does not automatically consume OpenCost recommendations. **Pair it with OpenCost for visibility, and use k8s-rightsizer for safe automated application.**
-
-- **CAST AI and Zesty have fundamentally different models.** CAST AI provides a platform you configure with autoscaling and bin packing rules . Zesty uses a **commission model**—it earns more when you save more, which aligns incentives but means you share the savings . **Choose CAST AI for platform control; choose Zesty for hands-off savings with shared upside.**
-
-- **Pricing opacity varies.** CAST AI, Spot, CloudZero, Apptio, Anodot, and Zesty require sales contact or savings-based estimation. Kubecost publishes free tier limits and paid tiers. Vantage offers free tools. Snowflake cloud services are consumption-based. **Validate with direct vendor conversations against your actual cloud spend and commitment levels.**
-
-- Self-hosted open-source solutions require proper infrastructure (Prometheus for OpenCost, Helm for deployment), and ongoing maintenance. **Cost data is financially sensitive**—ensure your deployment meets your organization's security requirements before connecting production billing accounts.
-
-
+### 12. **[k8s-rightsizer](https://github.com/mcpunzo/k8s-rightsizer)** [![GitHub stars](https://img.shields.io/github/stars/mcpunzo/k8s-rightsizer?style=social&color=white)](https://github.com/mcpunzo/k8s-rightsizer/stargazers)
+- **Description**: Automated Kubernetes rightsizing tool featuring safety rollback protection (MIT License).
+- **Key Features**: Automatically applies rightsizing recommendations and triggers automatic rollbacks if pods encounter failures (OOMKilled, CrashLoopBackOff, Unschedulable).
+- **Trade-off**: Ingests recommendations from external files rather than directly querying live Prometheus metrics dynamically.
+- **Best For**: Platform engineers wanting automated execution of rightsizing proposals with safety rollbacks.
 
 ---
 
+## 🛠️ FinOps Architecture & Stacks
 
+### Recommended Open-Source Stacks
+- **End-to-End Kubernetes Cost Management**: Pair **OpenCost** (for cost allocation) + **KRR** or **Goldilocks** (for resource sizing) + **Karpenter** (for autoscaling & node consolidation).
+- **Multi-Cloud Data Warehousing**: Ingest billing exports through **FOCUS Converters** into ClickHouse or DuckDB for unified FinOps reporting.
+- **Shift-Left CI/CD Governance**: Integrate **Infracost** in GitHub Actions with **Cloud Custodian** for automated account cleanup and guardrails.
 
-**Made for FinOps engineers, platform teams, and organizations building transparent cloud infrastructure optimization solutions.**
+---
 
-Let's make Cloud Infrastructure Management & Optimization more open, data-driven, and savings-aligned.
+## 🤝 How to Contribute
+
+Contributions are warmly welcomed! Help make this curated FinOps directory comprehensive and accurate:
+
+1. 🍴 Fork the repository.
+2. 🌿 Create a new feature branch (`git checkout -b feature/new-tool`).
+3. 📝 Add your entry to [README.md](README.md) adhering to the existing tabular/markdown formats (ensure valid license and exact pricing/stars data).
+4. 🚀 Commit your changes (`git commit -m "Add new open-source FinOps tool"`) and push (`git push origin feature/new-tool`).
+5. 📬 Open a Pull Request with a clear description of the project.
+
+---
+
+## 💖 Support & Sponsorship
+
+If you find this repository valuable for your cloud infrastructure optimization, Kubernetes rightsizing, or FinOps initiatives, please consider supporting the project:
+
+- 🌟 **Star this repository** to help others discover it on GitHub.
+- 🍴 **Fork and share** it with fellow DevOps, FinOps, and SRE team members.
+- ☕ **Sponsor the Maintainer**: Support ongoing curation and open-source contributions via the **[GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007)**.
+
+Thank you for your generous support and engagement with the open-source community! ❤️
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Cloud-Infrastructure-Management-Optimization&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Cloud-Infrastructure-Management-Optimization&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer
+
+- This repository is a **community-curated guide** intended for informational and educational purposes—it does not constitute an explicit endorsement of any commercial platform or open-source tool.
+- Platforms handling cloud billing credentials and cluster infrastructure must comply with organizational security policies, least-privilege RBAC, and data privacy frameworks (e.g., SOC2, GDPR, CCPA).
+- **Visibility vs. Optimization vs. Automation**: Tools like OpenCost provide visibility; recommendation engines like KRR and Goldilocks provide optimization advice; and autonomous tools like Karpenter, CAST AI, and Spot actively mutate infrastructure. Always test automated tools in staging environments with PodDisruptionBudgets enabled before deploying to production.
+- Pricing metrics, marketplace rates, and star counts are subject to change. Always verify current offerings with respective vendor documentation and repositories.
+
+---
+
+<p align="center">
+  <b>Built with ❤️ for FinOps engineers, platform architects, and DevOps teams worldwide.</b>
+</p>
