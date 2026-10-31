@@ -32,73 +32,29 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global Cloud Cost Management and FinOps market is estimated between **$13 billion and $15.2 billion**, compounding at a double-digit CAGR of 11%–14% fueled by multi-cloud complexity and surging AI/GPU infrastructure expenditures. The sector is **moderately fragmented**: the top tier is concentrated among hyperscalers (AWS, Azure, GCP native billing tools) and legacy enterprise titans (IBM/Apptio, Flexera) capturing roughly 45%–50% of revenue, while the remaining market consists of a competitive, fast-growing long tail of specialized autonomous optimization vendors, Kubernetes-native tools, and FinOps platforms enabled by vendor-neutral standards like FOCUS.
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[CAST AI](https://cast.ai/)**
-
-  **All-in-one Kubernetes automation, optimization, and cost management platform**. Provides real-time cost monitoring at cluster, namespace, and workload levels; **automated optimization** via autoscaling, Spot Instance automation, and bin packing; **workload autoscaling** to right-size containers automatically based on actual resource usage . Supports EKS, GKE, AKS, OCI, and **CAST AI Anywhere** for on-premises and hybrid clusters. **Pricing**: Quote-only; percentage of savings model common. **Free tier**: None. **Best for**: teams wanting autonomous Kubernetes optimization that actively reduces spend, not just reports on it—**trade-off**: requires trusting automated changes to production infrastructure.
-
-
-
-- **[Spot by NetApp](https://spot.io/)**
-
-  **Cloud infrastructure optimization** with automated management of Spot and on-demand instances. Claims **20% of DevOps time returned** by automating infrastructure management, allowing teams to focus on applications rather than capacity management . **Pricing**: Quote-only. **Free tier**: None. **Best for**: organizations running significant compute workloads wanting to maximize Spot usage while maintaining availability.
-
-
-
-- **[Kubecost](https://kubecost.com/)**
-
-  **Kubernetes cost monitoring and optimization** built on OpenCost. **Free tier**: Limited to 30-day retention and a **$100,000 spend cap** . **Commercial tiers**: Add discount reconciliation, multi-cluster federation, and automated optimization. **Pricing**: Free tier; paid from quote-only. **Free tier**: Yes, with spend cap. **Best for**: teams wanting OpenCost visibility with commercial support and discount reconciliation—**note**: free tier is constrained; production use at scale requires paid tier.
-
-
-
-- **[CloudZero](https://www.cloudzero.com/)**
-
-  **Real-time cloud cost intelligence** with AI-powered anomaly alerts and **unit cost metrics** (cost per customer, per feature, per team). Every customer gets a **designated FinOps Account Manager** for ongoing coaching . **Pricing**: Quote-only. **Free tier**: None. **Best for**: organizations wanting to shift cost accountability to engineers with real-time, granular allocation.
-
-
-
-- **[Vantage](https://www.vantage.sh/)**
-
-  **Cloud cost visibility and optimization** platform with a **free, open-source Cloud Cost Handbook** and **FinOps as Code** tutorials . Provides cost reports, EC2 pricing comparison, and LLM model pricing comparison. **Pricing**: Quote-only; free tools available. **Free tier**: Cloud Cost Handbook and cur.vantage.sh are free. **Best for**: teams wanting transparent cost visibility with strong educational resources.
-
-
-
-- **[Apptio Cloudability](https://www.apptio.com/products/cloudability/)** (IBM)
-
-  **Enterprise FinOps platform** used by Apptio internally to achieve **30% unit cost optimization**. Automates **1,400+ actions per month** with no human touch, ranging from RI conversions to dynamic resource parking . **Pricing**: Quote-only; enterprise contracts. **Free tier**: None. **Best for**: large enterprises needing mature FinOps with automation and governance at scale.
-
-
-
-- **[Anodot](https://www.anodot.com/)**
-
-  **AI-based cost management** with anomaly detection and **CostGPT**. Tracks multi-cloud, Kubernetes pods, and SaaS tool costs; provides forecasting and customizable dashboards . **Pricing**: Quote-only. **Free tier**: None. **Best for**: teams wanting AI-driven anomaly detection across multi-cloud and SaaS spend.
-
-
-
-- **[Zesty](https://zesty.co/)**
-
-  **Automated cloud optimization** for Kubernetes and storage. Claims **70% savings** on cloud costs; **5-minute onboarding**, **7 days to savings**; **5X faster node deployment** and **90% increased disk utilization** . Uses a **commission model**—Zesty earns more when you save more. **Pricing**: Percentage of savings. **Free tier**: None. **Best for**: teams wanting hands-free optimization with aligned incentives—**trade-off**: commission model means Zesty takes a cut of savings.
-
-
-
-- **[Snowflake Cloud Services Layer](https://www.snowflake.com/)**
-
-  **Metadata and optimization layer** within Snowflake that handles query parsing, optimization, and access control. **Cost optimization guidance** covers patterns like high-frequency simple queries, INFORMATION_SCHEMA queries, and SHOW commands that consume cloud services credits . **Pricing**: Included with Snowflake; cloud services billed separately. **Free tier**: Trial credits. **Best for**: Snowflake customers wanting to reduce cloud services overhead—**note**: this is a component, not a standalone optimization platform.
-
-
+| Platform | Company Size (Revenue / Valuation) | Pricing (Starting Tier) | Free Tier Limits / Free Trial | Key Capabilities & Highlights |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Apptio Cloudability](https://www.apptio.com/products/cloudability/)** (IBM) | **Parent Market Cap: ~$240B+** (Acquired Apptio for $4.6B; ~$67.5B FY25 revenue) | Starts at ~$30,000/year (billed annually based on % of monitored cloud spend via enterprise contracts/AWS Marketplace) | Free Trial available upon sales qualification / POC agreement (typically 14–30 days) | Enterprise FinOps governance, unit cost modeling, and autonomous RI/Savings Plan conversion automating 1,400+ monthly actions. |
+| **[Snowflake Cloud Services Layer](https://www.snowflake.com/)** | **Market Cap: ~$110B–$115B** (~$4.68B FY26 revenue) | Starts at $2.00/credit (Standard Edition on-demand; $3.00/credit for Enterprise) + compute warehouse usage | 30-day free trial with $400 in free trial credits (expires at 30 days or when credits deplete) | Metadata, security, and query optimization layer within Snowflake; cost guidance for high-frequency queries and auto-suspend management. |
+| **[Spot by NetApp](https://spot.io/)** | **Parent Market Cap: ~$42B+** (~$6.93B FY26 revenue; Spot acquired for $450M) | Pay-as-you-go starting at percentage of compute savings or ~$0.08–$0.10/instance-hour on marketplaces | 14-day free trial (full features on AWS Marketplace); free tier covers up to 20 virtual machines | Continuous automated optimization and balancing of Spot, Reserved, and On-Demand instances (Ocean & Elastigroup) returning up to 20% DevOps time. |
+| **[CAST AI](https://cast.ai/)** | **Valuation: ~$1.0B+** (Series C Unicorn; $180M+ total funding raised) | Paid automation plans scale per managed vCPU/month (~$0.015–$0.025/vCPU-hr) or percentage of savings | Free forever Kubernetes cost monitoring (unlimited clusters/namespaces, read-only); 30-day free trial for automated rightsizing/autoscaling | Autonomous all-in-one Kubernetes optimization: real-time autoscaling, pod rightsizing, automated bin-packing, and Spot automation. |
+| **[CloudZero](https://www.cloudzero.com/)** | **Valuation: ~$250M–$500M** (Series C; $118M total funding raised) | Starts at $19.00/month per $1,000 of monitored cloud spend on AWS Marketplace (approx. 1.9% of cloud spend; annual commitments typical) | Free trial / POC pilot available via AWS Marketplace upon sales request (typically 14–30 days) | Real-time cloud cost intelligence with automated anomaly detection, unit economics (cost per customer/feature), and dedicated FinOps account managers. |
+| **[Vantage](https://www.vantage.sh/)** | **Valuation: ~$150M–$250M** (Series B; $53M total funding raised) | **Pro Plan**: $30/month (covers up to $7,500/mo tracked cloud spend, 5 users) | **Starter (Free forever)**: $0/month for up to $2,500/mo tracked cloud spend (3 users, 6-month retention) | Multi-cloud cost visibility, FinOps as Code (Terraform provider), Cloud Cost Handbook, and virtual tagging across providers. |
+| **[Zesty](https://zesty.co/)** | **Valuation: ~$120M–$150M** ($117M total funding raised; ~$8M–$10M ARR) | Platform plans start at $5,000/month on AWS Marketplace, or 25% commission fee on realized cloud cost savings | Historical CUR audit & ROI proof analysis (no standalone self-serve free trial; risk-free ROI projection model) | Automated real-time disk scaling (Z-Storage) and dynamic compute reservation balancing (Commitment Manager) with 5-minute onboarding. |
+| **[Anodot](https://www.anodot.com/)** | **Valuation: ~$60M–$80M** ($65M+ total funding raised; peak ARR ~$10M–$14M) | Mid-market and enterprise packages starting at ~$40,000/year via cloud marketplace contracts | 30 to 60-day scoped Proof-of-Concept (POC) / pilot trial through sales qualification | AI-driven multi-cloud and SaaS cost monitoring, CostGPT assistant, automated anomaly alerting, and forecasting dashboards. |
+| **[Kubecost](https://kubecost.com/)** | **Acquired by IBM/Apptio** ($30.5M venture funding raised prior to acquisition) | **Business Tier**: Starts at $449/month (up to ~200 nodes, 30+ day retention, multi-cluster federation) | **Foundations (Free forever)**: Supports up to 250 CPU cores across unlimited clusters with 15-day data retention | Kubernetes cost allocation built on OpenCost with real-time rightsizing recommendations, health alerts, and cloud billing discount reconciliation. |
 
 ## Open-Source GitHub Projects
 
